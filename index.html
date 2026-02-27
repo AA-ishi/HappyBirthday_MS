@@ -96,7 +96,7 @@ function pickRandom() {
    console.error('音声再生エラー:', error);
   });
   const item = data[Math.floor(Math.random() * data.length)];
-  document.getElementById('result').innerText = `${item.menu}\n${item.comment}\n ${item.mood}`;
+  document.getElementById('result').innerText = ` ${item.menu}\n${item.comment}\n ${item.mood}`;
 } 
   </script>
 </body>
