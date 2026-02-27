@@ -42,7 +42,10 @@
 </head>
     
 <body>
-  <h1> HappyBirthday</h1>
+  <h1>
+  HappyBirthday<br>
+  Yuko Asai
+  </h1>>
   <p class="subtext">アイコンをタップしてね</p>
 
   <!-- ガチャアイコン -->
@@ -86,7 +89,7 @@ function pickRandom() {
     return;
   }
   
-  // ドアベルの音を再生
+  // 音を再生
   const sound = document.getElementById('doorSound');
   sound.currentTime = 0; // 毎回最初から再生
   sound.play().catch(error => {
